@@ -65,6 +65,39 @@ class LocationsDataService {
                 "paris-louvre-3",
             ],
             link: "https://en.wikipedia.org/wiki/Louvre"),
+        Location(
+            name: "Monument to the Revolution",
+            cityName: "CDMX",
+            coordinates: CLLocationCoordinate2D(latitude: 19.4362, longitude: -99.15464),
+            description: "The Monument to the Revolution in Mexico City is a powerful symbol of the country's turbulent history. Its grand neoclassical design and massive dome pay tribute to the Mexican Revolution of 1910-1920. The monument also serves as the final resting place for key revolutionary leaders like Francisco Villa and Venustiano Carranza. With its imposing architecture and historical significance, the Monument to the Revolution is a must-visit landmark when exploring Mexico City's rich heritage.",
+            imageNames: [
+                "monument-to-rev-1",
+                "monument-to-rev-2",
+                "monument-to-rev-3",
+            ],
+            link: "https://en.wikipedia.org/wiki/Monumento_a_la_Revolución"),
+        Location(
+            name: "Angel of Independence",
+            cityName: "CDMX",
+            coordinates: CLLocationCoordinate2D(latitude: 19.427, longitude: -99.16771),
+            description: "The Angel of Independence in Mexico City is a triumphant symbol of freedom and courage. This iconic monument, standing tall on Paseo de la Reforma, commemorates Mexico's hard-fought battle for independence. Its striking beauty and historical importance make it an essential stop for all visitors to Mexico's capital.",
+            imageNames: [
+            "angel-of-independence-1",
+            "angel-of-independence-2",
+            ],
+            link: "https://en.wikipedia.org/wiki/Angel_of_Independence"),
+        Location(
+            name: "The Pyramids at Teotihuacan",
+            cityName: "State of Mexico",
+            coordinates: CLLocationCoordinate2D(latitude: 19.6925, longitude: -98.843889),
+            description: "Teotihuacán, near Mexico City, is a captivating ancient city with colossal pyramids like the Pyramid of the Sun and Pyramid of the Moon. Exploring this archaeological treasure is a journey into Mexico's rich history and culture, a must-visit for those seeking a connection with the mysteries of the past.",
+            imageNames: [
+                "pyramids-at-teotihuacan-1",
+                "pyramids-at-teotihuacan-2",
+                "pyramids-at-teotihuacan-3",
+                "pyramids-at-teotihuacan-4",
+            ],
+            link: "https://en.wikipedia.org/wiki/Teotihuacan")
     ]
     
 }

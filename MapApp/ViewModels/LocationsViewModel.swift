@@ -7,9 +7,9 @@
 
 import Foundation
 import MapKit
-import SwiftUI
+import SwiftUI 
 
-class LocationsViewModel: ObservableObject {
+final class LocationsViewModel: ObservableObject {
     
     // All loaded locations
     @Published var locations: [Location]
